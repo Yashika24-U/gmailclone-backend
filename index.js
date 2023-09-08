@@ -14,6 +14,6 @@ app.use('/',routes);
 
 const PORT = 9000
 
-Connection();
 
-app.listen(PORT , ()=>{console.log(`Server started at ${PORT}`)})
+
+app.listen(PORT , ()=>{Connection();console.log(`Server started at ${PORT}`)})
