@@ -7,7 +7,7 @@ const app = express()
 
 
 app.use(cors())  //crossorigin error
-app.use(express.urlencoded()); //for email %20 
+// app.use(express.urlencoded()); //for email %20 
 app.use(express.json({extended:true}));
 
 app.use('/',routes);
